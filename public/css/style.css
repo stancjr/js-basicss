@@ -1,0 +1,57 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.form-control {
+  margin: 1rem 0;
+}
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+.form-control input {
+  border: 1px solid #00adef;
+  font: inherit;
+  border-radius: 2px;
+}
+button {
+  font: inherit;
+  border: 1px solid #00adef;
+  color: black;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button:hover,
+button:active {
+  background-color: #1b9ebe;
+}
+.product-form {
+  width: 20rem;
+  max-width: 100%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
